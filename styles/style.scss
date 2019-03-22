@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Yellowtail|Karla:400,400i,700');
+
+$primary-color: #F2C9BC;
+$secondary-color: #252F3D;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Karla',
+        sans-serif;
+    color: #333;
+}
+
+.nav-wrapper a {
+    height: 100%;
+}
+
+.brand-logo img {
+    width: 13rem;
+    vertical-align: middle;
+}
+
+#showcase {
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+    color: $secondary-color;
+    line-height: 1.5;
+
+    img {
+        width: 50%;
+        filter: drop-shadow(0 0 5px rgba(0, 0, 0, .2));
+    }
+}

@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css?family=Yellowtail|Karla:400,400i,700");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'Karla', sans-serif;
+  color: #333;
+}
+
+.nav-wrapper a {
+  height: 100%;
+}
+
+.brand-logo img {
+  width: 13rem;
+  vertical-align: middle;
+}
+
+#showcase {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  color: #252F3D;
+  line-height: 1.5;
+}
+
+#showcase img {
+  width: 50%;
+  -webkit-filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.2));
+          filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.2));
+}
+/*# sourceMappingURL=style.css.map */

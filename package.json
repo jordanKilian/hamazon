@@ -1,0 +1,19 @@
+{
+  "name": "hamazon",
+  "version": "1.0.0",
+  "description": "amazon but for ham",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jordanKilian/hamazon.git"
+  },
+  "author": "Jordan Kilian",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jordanKilian/hamazon/issues"
+  },
+  "homepage": "https://github.com/jordanKilian/hamazon#readme"
+}
