@@ -15,8 +15,18 @@ body {
     color: #333;
 }
 
-.nav-wrapper a {
-    height: 100%;
+.nav-wrapper {
+    margin: 0 3rem;
+
+    a {
+        color: #333;
+    }
+}
+
+.sidenav {
+    .divider {
+        margin: 0;
+    }
 }
 
 .brand-logo img {
@@ -24,17 +34,6 @@ body {
     vertical-align: middle;
 }
 
-#showcase {
-    display: flex;
-    height: 100vh;
-    width: 100%;
-    align-items: center;
-    justify-content: space-evenly;
-    color: $secondary-color;
-    line-height: 1.5;
-
-    img {
-        width: 50%;
-        filter: drop-shadow(0 0 5px rgba(0, 0, 0, .2));
-    }
+.slider h2 {
+    text-shadow: 2px 2px 5px black;
 }

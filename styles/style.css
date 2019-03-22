@@ -11,8 +11,16 @@ body {
   color: #333;
 }
 
+.nav-wrapper {
+  margin: 0 3rem;
+}
+
 .nav-wrapper a {
-  height: 100%;
+  color: #333;
+}
+
+.sidenav .divider {
+  margin: 0;
 }
 
 .brand-logo img {
@@ -20,25 +28,7 @@ body {
   vertical-align: middle;
 }
 
-#showcase {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  height: 100vh;
-  width: 100%;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-  color: #252F3D;
-  line-height: 1.5;
-}
-
-#showcase img {
-  width: 50%;
-  -webkit-filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.2));
-          filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.2));
+.slider h2 {
+  text-shadow: 2px 2px 5px black;
 }
 /*# sourceMappingURL=style.css.map */
